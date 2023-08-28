@@ -79,19 +79,19 @@ void main() {
     int x = int.parse(chsbook);
     if (x==1){
       xm=false;
-      print("The price of ${b1?.title} Book at ${a?.name} author is : \$${b1?.price}");
+      print("The price of ${b1?.title} Book written by ${a?.name} author is : \$${b1?.price}");
     }
     else if (x==2){
       xm=false;
-      print("The price of ${b2?.title} Book writen by  ${a?.name} author is : \$${b2?.price}");
+      print("The price of ${b2?.title} Book written by  ${a?.name} author is : \$${b2?.price}");
     }
     else if (x==3){
       xm=false;
-      print("The price of ${b3?.title} Book writen by  ${a?.name} Author is : \$${b3?.price}");
+      print("The price of ${b3?.title} Book written by  ${a?.name} Author is : \$${b3?.price}");
     }
     else if (x==4){
       xm=false;
-      print("The price of ${b4?.title} Book writen by ${a?.name} author is : \$${b4?.price}");
+      print("The price of ${b4?.title} Book written by ${a?.name} author is : \$${b4?.price}");
     }
     else{
       print("Invalid Input");
